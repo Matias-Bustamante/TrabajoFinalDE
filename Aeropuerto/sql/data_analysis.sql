@@ -1,9 +1,10 @@
 
---Determinar la cantidad de vuelos entre las fechas 01/12/2021 y 31/12/2022
+--Determinar la cantidad de vuelos entre las fechas 01/12/2021 y 31/01/2022
 
 Select COUNT(*) as CantidadDeVuelos from aeropuerto.vuelos v  
-where fecha between '2021-12-01' and '2022-12-31'
- 
+where fecha BETWEEN  '2021-12-01' AND '2022-01-31'
+
+
 --Cantidad de pasajeros que viajaron en aerolineas argentinas entre el 01/01/2021 30/06/2022
 
 Select aerolinea_nombre , SUM(pasajeros) as TotalPasajeros from aeropuerto.vuelos 

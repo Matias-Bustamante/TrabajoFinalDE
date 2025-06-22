@@ -26,6 +26,9 @@ listos para ser visualizados y responder las preguntas de negocio.
 ## Dashboard de Alquileres de Auto 
 Link: https://acortar.link/dd6W95
 
+## Dashboard de aeropuerto
+Link: https://acortar.link/HuhQG0
+
 ## Tecnología
 ### DataWarehouse
 ![Hive](https://hive.apache.org/images/hiveAcid.svg)
